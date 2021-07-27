@@ -1,0 +1,147 @@
+/* Root Level (this was called something else in class "Universal Level"
+I thin) - set the basis for the entire file 
+If other elements have the same element */
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #d9dcd6;
+}
+
+header {
+  /*I changed the div class=header to just header*/
+  padding: 20px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  background-color: #2a607c;
+  color: #ffffff;
+}
+
+h1 {
+  /*there are no other h1 headers so I simplified this logo section*/
+  /*display sets header to inline so other elements
+  can be on the same line as the logo, namely the menue.*/
+  display: inline-block;
+  font-size: 48px;
+}
+
+h1 .seo {
+  /*I changed the color slightly because I
+  couldn't see this color difference on my screen*/
+  color: #99c76c;
+}
+
+nav {
+  /*changed div section to nav section*/
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right; /*takes the 'list items' for the menue and floats them
+  so they can be inline with the logo on the right side of the page*/
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+}
+
+nav ul li {
+  display: inline-block; /*makes the 'list' items no longer a list*/
+  margin-left: 25px; /*sets the margin space between the menu options*/
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+#hero {
+  height: 800px;
+  width: 100%;
+  margin-bottom: 25px;
+  background-image: url("../images/digital-marketing-meeting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+article {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+
+article figure {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+
+article figure img {
+  max-height: 200px;
+}
+
+h2 {
+  /*all h2 have the same size and font also*/
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+figcaption {
+  /*All captions have the same size font, so I made this line*/
+  font-size: 16px;
+}
+
+.float-left {
+  float: left;
+  margin-right: 25px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 25px;
+}
+
+aside {
+  /*changed div=benefits to an aside*/
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background-color: #2589bd;
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+
+h3 {
+  /*All h3s have the same size text*/
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+aside figure {
+  padding: 20px 10px 20px 10px; /*Added for my own asthetic pleasure to 
+  separate the 3 aside sections a little more*/
+}
+
+aside img {
+  display: block; /*sets the icon between the title and info*/
+  margin: 10px auto; /*centers the icon in the center rather than at the left*/
+  max-width: 150px;
+}
+
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center; /*centers footer*/
+}
+
+footer h2 {
+  font-size: 20px;
+}
